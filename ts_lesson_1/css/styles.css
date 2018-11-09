@@ -1,0 +1,43 @@
+body {
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.basket-block {
+    position: relative;
+    margin: 100px auto 0;
+    background: url(../images/basket.png) no-repeat;
+    width: 250px;
+    height: 264px;
+}
+
+.basket-block .goal-counter {
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.basket-block .hoop-border {
+    position: absolute;
+    top: 137px;
+    left: 51px;
+    width: 145px;
+}
+
+.ball-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(../images/ball.png) no-repeat;
+    width: 90px;
+    height: 89px;
+}
+
+.draggable {
+    cursor: pointer;
+}
